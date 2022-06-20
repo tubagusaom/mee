@@ -46,15 +46,15 @@ filter: brightness(0.9);
         <div class="font-display">
           <p class="tb-mutlu font-hdr text-color-primary"  data-aos="fade-left" data-aos-duration="500" data-aos-delay="50">Undangan Pernikahan</p> <br>
 
-          <div class="octo">
+          <!-- <div class="octo">
             <div class="octo1">
               <img class="imageoctotb1" src="<?=base_url()?>_assets/img/icon5.jpg" alt="" />
             </div>
-          </div> <br>
+          </div> <br> -->
 
-          <!-- <section class="section-imgtb">
+          <section class="section-imgtb">
             <img class="imageicontb1" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="50" src="<?=base_url()?>_assets/img/icon5.jpg" alt="" />
-          </section><br> -->
+          </section><br>
 
           <h4 class="text-name-tb text-color-primary" data-aos="fade-right" data-aos-duration="500" data-aos-delay="50" style="font-size:30px;">Aom & Mia</h4>
           <p class="pt-1 fw-bolder the-wedding-of-tgl" data-aos="fade-left" data-aos-duration="500" data-aos-delay="50">30 October 2022</p>
