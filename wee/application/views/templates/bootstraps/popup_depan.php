@@ -3,33 +3,33 @@
 * ==== octogone
 */
 .octo, .octo div {
-margin: 0 auto;
-transform-origin: 50% 50%;
-overflow: hidden;
-width: 300px;
-height: 300px;
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
 }
 .octo, .octo div {
-width: 150px;
-height: 150px;
+  width: 150px;
+  height: 150px;
 }
 .octo {
-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .octo1 {
   transform: rotate(-45deg);
 }
 
 .octo div img {
-position :relative;
+  position :relative;
 
-width: 200px;
-height: 196px;
+  width: 200px;
+  height: 196px;
 
-left:-35px;
-top: -8px;
+  left:-35px;
+  top: -8px;
 
-filter: brightness(0.9);
+  filter: brightness(0.9);
 }
 </style>
 
