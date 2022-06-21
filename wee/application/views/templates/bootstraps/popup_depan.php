@@ -1,40 +1,6 @@
-<style media="screen">
 
-.shapetb_1, .shapetb_1 div {
-  margin: 0 auto;
-  transform-origin: 50% 50%;
-  overflow: hidden;
-  width: 150px;
-  height: 150px;
-}
-.shapetb_1 {
-  transform: rotate(120deg);
-}
-.dode1_tb {
-  transform: rotate(-60deg);
-}
-.dode2_tb {
-  transform: rotate(-60deg);
-}
 
-.shapetb_1 div img {
-  position :relative;
-  z-index: 0;
 
-  width: 155px;
-  height: 151px;
-
-  left:-5px;
-  /* top: -8px; */
-
-  filter: brightness(0.8);
-  /* filter: saturate(1.25); */
-
-}
-
-</style>
-
-<!-- trigger the tbpopup -->
 <!-- <a href="javascript:void(0);" id="tbpopupLink">Klik disini untuk membuka popup</a> -->
 
 <!-- <div id="tbpopupLink"></div> -->
