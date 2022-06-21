@@ -1,7 +1,7 @@
 
 
   <?php
-    $this->load->view("templates/bootstraps/popup_depan");
+    // $this->load->view("templates/bootstraps/popup_depan");
   ?>
 
   <section id="header_top">
@@ -53,6 +53,11 @@
   <section class="the-wedding section section-overlay custom-overlay-1 m-none pt-md pb-xlg">
 
     <section class="shapetb-1"></section>
+    <section class="shapetb-2"></section>
+
+    <div class="text-center col-md-12">
+      <img class="img-animasitb-1 spin-tb" src="<?=base_url()?>_assets/img/pink-heart-ring-icon.png" alt="">
+    </div>
 
     <!-- <div class="box-kata pt-md pb-xlg pl-md pr-md">
     <div class="rounded"></div>

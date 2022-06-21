@@ -7,7 +7,7 @@
     <li class="nav__item">
       <a href="javascript:void(0)" class="nav__link c-primary" menuid-tb="header_top">
         <!-- <i class="fa fa-home"></i> -->
-        <i class="icontb aomia1 c-primary"></i>
+        <i class="icontb-aomia1 icon-aomia1 c-primary"></i>
         <!-- <img class="menu__imgtb" src="<?=base_url()?>_assets/img/demos/wedding/foto/aomia1.png" alt=""> -->
         <!-- <span class="c-blue">Home</span> -->
       </a>

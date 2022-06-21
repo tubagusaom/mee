@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-.icontb {
+.icontb-aomia1 {
   display: inline-block;
   font: normal normal normal 19.5px/1 terabyte !important;
   font-size: inherit;
@@ -19,4 +19,4 @@
   -moz-osx-font-smoothing: grayscale
 }
 
-.aomia1:before { content: '\e800'; } /* '' */
+.icon-aomia1:before { content: '\e800'; } /* '' */
