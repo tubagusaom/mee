@@ -1,10 +1,12 @@
 
 
-  <?php $this->load->view("templates/bootstraps/popup_depan"); ?>
+  <?php
+    // $this->load->view("templates/bootstraps/popup_depan");
+  ?>
 
   <section id="header_top">
 
-    <section>
+    <!-- <div class="panel">
       <div class="bg-img">
         <img class="vpc" src="<?=base_url() ?>_assets/img/demos/wedding/foto/ami_bokeh.png" alt="">
         <img class="vhp" src="<?=base_url() ?>_assets/img/demos/wedding/foto/naomi.png" alt="">
@@ -14,22 +16,28 @@
            <span class="text-slide-tb-2 tb-quicksand">Pernikahan | Minggu  , 30 Oktober 2022</span>
         </div>
       </div>
-    </section>
+    </div> -->
+    <!-- <div class="shape-separator"></div> -->
 
-    <section class="panel">
-      <article class="panel__wrapper">
+    <div id="bg-tb" class="slidetb">
 
-        <!-- <div class="panel__content">
-          <div class="panel_text_content">
-             <span class="text_content_header tb-cristtaline">Aom & Mia</span>
-             <div class="panel__block__transparent"></div>
-             <span class="panel__text__bottom tb-quicksand">Pernikahan | Minggu  , 30 Oktober 2022</span>
-          </div>
-        </div> -->
+      <img class="vhp" src="<?=base_url() ?>_assets/img/demos/wedding/foto/naomi.png" alt="">
+      <img class="vpc" src="<?=base_url() ?>_assets/img/demos/wedding/foto/ami_bokeh.png" alt="">
 
-      </article>
-    </section>
+      <div class="textbg text-center align-self-center">
+        <p class="textbg1 tb-cristtaline">Aom & Mia</p>
+        <p class="textbg2 tb-quicksand">Pernikahan | Minggu , 30 Oktober 2022</p>
+      </div>
+
+      <!-- <div class="text-slide">
+         <span class="text-slide-tb-1 tb-cristtaline">Aom & Mia</span>
+         <span class="text-slide-tb-2 tb-quicksand">Pernikahan | Minggu  , 30 Oktober 2022</span>
+      </div> -->
+
+    </div>
   </section>
+
+
 
     <!-- <section class="panel b-blue" id="1">
       <article class="panel__wrapper">
@@ -41,7 +49,10 @@
       </article>
     </section> -->
 
+
   <section class="the-wedding section section-overlay custom-overlay-1 m-none pt-md pb-xlg">
+
+    <section class="shapetb-1"></section>
 
     <!-- <div class="box-kata pt-md pb-xlg pl-md pr-md">
     <div class="rounded"></div>
@@ -66,15 +77,14 @@
     <!-- <div class="col-md-12 pt-xlg center"> -->
       <div class="row card_text loading_card" data-appear-animation="fadeInLeft" data-appear-animation-delay="0">
 
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <div class="image_card">
-            <!-- <img src="https://assets.codepen.io/2002878/wake-up-and-code.jpg" alt=""> -->
             <img class="img-responsive" src="<?=base_url()?>_assets/img/demos/wedding/ifoundmylove.png" alt="">
           </div>
-        </div>
+        </div> -->
 
 
-        <div class="content_card col-md-6">
+        <div class="content_card col-md-12">
           <h4 class="text-color-primary center">QS. Ar-Rum Ayat 21</h4>
 
           <div class="description_card">

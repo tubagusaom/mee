@@ -19,13 +19,9 @@
 ?>
 
 <!-- Tera Byte js -->
-<script src="<?=base_url()?>_assets/tera_byte/js/style.js"></script>
-<script src="<?=base_url()?>_assets/tera_byte/js/style_menu.js"></script>
-<script src="<?=base_url()?>_assets/tera_byte/js/style_audio.js"></script>
-
-<script type="text/javascript">
-
-</script>
+<script src="<?=base_url()?>_assets/vendor/_tera_byte/js/style.js"></script>
+<script src="<?=base_url()?>_assets/vendor/_tera_byte/js/style_menu.js"></script>
+<script src="<?=base_url()?>_assets/vendor/_tera_byte/js/style_audio.js"></script>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
@@ -67,6 +63,7 @@
 
 <!-- <script src="<?=base_url()?>assets/js/jquery-3.6.0.min.js"></script> -->
 <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+
 
 
 </body>

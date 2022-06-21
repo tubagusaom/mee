@@ -1,36 +1,37 @@
 <style media="screen">
-/*
-* ==== octogone
-*/
-.octo, .octo div {
+
+.shapetb_1, .shapetb_1 div {
   margin: 0 auto;
   transform-origin: 50% 50%;
   overflow: hidden;
-  width: 300px;
-  height: 300px;
-}
-.octo, .octo div {
   width: 150px;
   height: 150px;
 }
-.octo {
-  transform: rotate(45deg);
+.shapetb_1 {
+  transform: rotate(120deg);
 }
-.octo1 {
-  transform: rotate(-45deg);
+.dode1_tb {
+  transform: rotate(-60deg);
+}
+.dode2_tb {
+  transform: rotate(-60deg);
 }
 
-.octo div img {
+.shapetb_1 div img {
   position :relative;
+  z-index: 0;
 
-  width: 200px;
-  height: 196px;
+  width: 155px;
+  height: 151px;
 
-  left:-35px;
-  top: -8px;
+  left:-5px;
+  /* top: -8px; */
 
-  filter: brightness(0.9);
+  filter: brightness(0.8);
+  /* filter: saturate(1.25); */
+
 }
+
 </style>
 
 <!-- trigger the tbpopup -->
@@ -51,6 +52,14 @@
               <img class="imageoctotb1" src="<?=base_url()?>_assets/img/icon5.jpg" alt="" />
             </div>
           </div> <br> -->
+
+          <!-- <div class="shapetb_1 mb-md">
+            <div class="dode1_tb">
+              <div class="dode2_tb">
+                <img src="<?=base_url()?>_assets/img/icon5.jpg" />
+              </div>
+            </div>
+          </div> -->
 
           <section class="section-imgtb">
             <img class="imageicontb1" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="50" src="<?=base_url()?>_assets/img/icon5.jpg" alt="" />

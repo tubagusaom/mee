@@ -35,15 +35,15 @@
 		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/magnific-popup/magnific-popup.min.css">
 
 		<!-- Tera Byte -->
-		<link rel="stylesheet" href="<?=base_url()?>_assets/tera_byte/css/style_menu.css">
-		<link rel="stylesheet" href="<?=base_url()?>_assets/tera_byte/css/style.css">
-		<link rel="stylesheet" href="<?=base_url()?>_assets/tera_byte/css/style_box.css">
-		<link rel="stylesheet" href="<?=base_url()?>_assets/tera_byte/css/style_slider.css">
-		<link rel="stylesheet" href="<?=base_url()?>_assets/tera_byte/css/style_modal.css">
-		<link rel="stylesheet" href="<?=base_url()?>_assets/tera_byte/css/style_slider.css">
+		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/_tera_byte/css/style_menu.css">
+		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/_tera_byte/css/style.css">
+		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/_tera_byte/css/style_box.css">
+		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/_tera_byte/css/style_slider.css">
+		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/_tera_byte/css/style_modal.css">
+		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/_tera_byte/css/style_slider.css">
 
 		<!-- Tera Byte font -->
-		<link rel="stylesheet" href="<?=base_url()?>_assets/tera_byte/fontebe/css/terabyte.min.css">
+		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/_tera_byte/fontebe/css/terabyte.min.css">
 
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="<?=base_url()?>_assets/css/theme.css">
@@ -73,8 +73,6 @@
 
 		<script src="<?=base_url()?>assets/js/jquery.min.js"></script>
 
-		<!-- <script type="text/javascript" src="http://jplayer.org/latest/dist/jplayer/jquery.jplayer.min.js"></script> -->
-
 		<script type="text/javascript">
 			var base_url = "<?php echo base_url() ?>";
 		</script>
@@ -103,20 +101,49 @@
 			// }
 		?>
 
-		<!-- <script src="<?=base_url()?>_assets/tera_byte/js/cek_resolusi_layar.js"></script> -->
+		<style media="screen">
 
+		</style>
 
-		<!-- <script type="text/javascript" src="<?=base_url()?>_assets/js/custom.js"
-		data-config="{'skin':'https://static.tumblr.com/su8juwr/OBMmp2h7u/cora____o.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Marry Your Daughter','url':'http://wtb.indonesia-kompeten.com/assets/files/audio/marry_your_daughter.mp3'}]}" ></script> -->
+		<script type="text/javascript">
+		// $(window).load(function() {
+		//
+		//       var theWindow        = $(window),
+		//           $bg              = $("#bg-tb img"),
+		//           aspectRatio      = $bg.width() / $bg.height(),
+		// 					windowRatio      = theWindow.width() / theWindow.height()
+		//
+		// 					// alert(aspectRatio  + '-' + windowRatio);
+		//
+		//       function resizeBg() {
+		//
+		//               if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+		//                   $bg
+		//                       .removeClass('bgwidthtb')
+		//                       .addClass('bgheightb');
+		//               } else {
+		//                   $bg
+		//                       .removeClass('bgheightb')
+		//                       .addClass('bgwidthtb');
+		//               }
+		//
+		//       }
+		//
+		//       theWindow.resize(resizeBg).trigger("resize");
+		//
+		// });
+		</script>
+
+		<!-- <script src="<?=base_url()?>_assets/vendor/_tera_byte/js/cek_resolusi_layar.js"></script> -->
+
 	</head>
 
 
 	<body data-target="#header" data-spy="scroll" data-offset="100">
 
-
 		<i id="volume" onclick="playPause(this)" class="bi bi-volume-down-fill" style="font-size: 2rem;"></i>
 		<audio id="audio1" controls autoplay loop preload controlsList="nodownload" >
-			<source src="<?=base_url()?>_assets/audio/kenny_g_forever_in_love_saxophone.mp3" type="audio/mp3"></source>
+			<!-- <source src="<?=base_url()?>_assets/audio/kenny_g_forever_in_love_saxophone.mp3" type="audio/mp3"></source> -->
 		</audio>
 
 		<!-- <audio id="audio1" controls autoplay="true" loop="true" preload controlsList="nodownload">
