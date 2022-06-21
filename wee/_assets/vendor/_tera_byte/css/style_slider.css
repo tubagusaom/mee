@@ -299,6 +299,22 @@
   padding-top: 30px;
 }
 
+/* pc mac */
+@media(min-width:1200px){
+  #bg-tb .textbg{
+    top: 480px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 65px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 16px!important;
+    padding-top: 30px!important;
+  }
+}
+
 
 /* iphone 7 */
 @media (max-width:390px) and (max-height: 700px) {

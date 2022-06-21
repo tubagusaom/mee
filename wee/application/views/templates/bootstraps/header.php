@@ -102,7 +102,7 @@
 			// }
 		?>
 
-		<!-- <script src="<?=base_url()?>_assets/vendor/_tera_byte/js/cek_resolusi_layar.js"></script> -->
+		<script src="<?=base_url()?>_assets/vendor/_tera_byte/js/cek_resolusi_layar.js"></script>
 
 	</head>
 
