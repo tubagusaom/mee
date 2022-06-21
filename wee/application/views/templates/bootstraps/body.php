@@ -1,7 +1,7 @@
 
 
   <?php
-    // $this->load->view("templates/bootstraps/popup_depan");
+    $this->load->view("templates/bootstraps/popup_depan");
   ?>
 
   <section id="header_top">
