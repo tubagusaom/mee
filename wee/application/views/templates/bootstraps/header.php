@@ -101,39 +101,6 @@
 			// }
 		?>
 
-		<style media="screen">
-
-		</style>
-
-		<script type="text/javascript">
-		// $(window).load(function() {
-		//
-		//       var theWindow        = $(window),
-		//           $bg              = $("#bg-tb img"),
-		//           aspectRatio      = $bg.width() / $bg.height(),
-		// 					windowRatio      = theWindow.width() / theWindow.height()
-		//
-		// 					// alert(aspectRatio  + '-' + windowRatio);
-		//
-		//       function resizeBg() {
-		//
-		//               if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
-		//                   $bg
-		//                       .removeClass('bgwidthtb')
-		//                       .addClass('bgheightb');
-		//               } else {
-		//                   $bg
-		//                       .removeClass('bgheightb')
-		//                       .addClass('bgwidthtb');
-		//               }
-		//
-		//       }
-		//
-		//       theWindow.resize(resizeBg).trigger("resize");
-		//
-		// });
-		</script>
-
 		<!-- <script src="<?=base_url()?>_assets/vendor/_tera_byte/js/cek_resolusi_layar.js"></script> -->
 
 	</head>
@@ -143,7 +110,7 @@
 
 		<i id="volume" onclick="playPause(this)" class="bi bi-volume-down-fill" style="font-size: 2rem;"></i>
 		<audio id="audio1" controls autoplay loop preload controlsList="nodownload" >
-			<!-- <source src="<?=base_url()?>_assets/audio/kenny_g_forever_in_love_saxophone.mp3" type="audio/mp3"></source> -->
+			<source src="<?=base_url()?>_assets/audio/kenny_g_forever_in_love_saxophone.mp3" type="audio/mp3"></source>
 		</audio>
 
 		<!-- <audio id="audio1" controls autoplay="true" loop="true" preload controlsList="nodownload">
