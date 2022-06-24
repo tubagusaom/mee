@@ -95,11 +95,11 @@
         <div class="content_card col-md-12">
           <h4 class="text-color-primary center">QS. Ar-Rum Ayat 21</h4>
 
-          <div class="description_card">
-            <p style="font-weight:bold;text-align: right;" >وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً ۗاِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ</p>
+          <div class="description_card tb-quicksand">
+            <p style="font-weight:bold;text-align: right;letter-spacing:0px;" >وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً ۗاِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ</p>
           </div>
 
-          <div class="description_card" style="text-align: justify;">
+          <div class="description_card tb-quicksand center" style="letter-spacing:2px;">
             Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.
           </div>
         </div>
@@ -324,7 +324,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <h2 class="alternative-font custom-font-size-tb text-color-primary center pb-md">السلام عليكم ورحمة الله وبركاته</h2>
+            <h2 class="custom-font-size-tb text-color-primary center pb-md" style="font-family:sacramento">
+            السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+            </h2>
 
             <p class="center tb-quicksand">
               Dengan mengucap syukur kepada Tuhan Yang Maha Kuasa, dengan Rahmat dan Ridho-Nya perkenankanlah tautan cinta kami dan dengan segenap kerendahan hati, tanpa mengurangi rasa hormat. Kami mohon doa dan restu dari Bapak/Ibu/Saudara/i untuk hadir dihari bahagia Pernikahan kami yang akan dilaksanakan pada :
@@ -334,7 +336,8 @@
           </div>
         </div>
         <div class="row mt-xs mb-xlg tb-quicksand">
-          <div class="col-sm-8 col-md-5 col-sm-offset-2 col-md-offset-1 mt-xlg pt-xlg">
+
+          <div class="col-sm-8 col-md-5 col-sm-offset-2 col-md-offset-1 mt-xlg pt-xlg pb-xlg">
             <div class="wedding-schedule center appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="0">
               <div class="wedding-schedule-photo">
                 <img src="<?=base_url()?>_assets/img/demos/wedding/the-wedding/akad.jpg" alt />
@@ -360,6 +363,7 @@
               </a>
             </div>
           </div>
+
           <div class="col-sm-8 col-md-5 col-sm-offset-2 col-md-offset-0 mt-xlg pt-xlg">
             <div class="wedding-schedule center appear-animation" data-appear-animation="fadeInRight" data-appear-animation-delay="0">
               <div class="wedding-schedule-photo">

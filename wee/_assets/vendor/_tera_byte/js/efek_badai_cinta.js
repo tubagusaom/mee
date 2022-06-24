@@ -1,4 +1,5 @@
 
+
 var snowStorm = null;
 
 function SnowStorm() {
@@ -11,12 +12,12 @@ function SnowStorm() {
   this.flakeBottom = null;        // Integer for Y axis snow limit, 0 or null for "full-screen" snow effect
   this.targetElement = null;      // element which snow will be appended to (document body if null/undefined) - can be an element ID string, or a DOM node reference
   this.followMouse = true;        // Snow will change movement with the user's mouse
-  this.snowColor = '#f1e7e0';        // Don't eat (or use?) yellow snow.
-  this.snowCharacter = '&hearts;';  // &bull; = bullet, &middot; is square on some systems etc.
-  this.snowStick = true;          // Whether or not snow should "stick" at the bottom. When off, will never collect.
+  this.loveColor = '#f1e7e0';        // Don't eat (or use?) yellow snow.
+  this.loveCharacter = '&hearts;';  // &bull; = bullet, &middot; is square on some systems etc.
+  this.loveStick = false;          // Whether or not snow should "stick" at the bottom. When off, will never collect.
   this.useMeltEffect = true;      // When recycling fallen snow (or rarely, when falling), have it "melt" and fade out if browser supports it
   this.useTwinkleEffect = false;  // Allow snow to randomly "flicker" in and out of view while falling
-  this.usePositionFixed = false;  // true = snow not affected by window scroll. may increase CPU load, disabled by default - if enabled, used only where supported
+  this.usePositionFixed = true;  // true = snow not affected by window scroll. may increase CPU load, disabled by default - if enabled, used only where supported
 
   // --- less-used bits ---
 
@@ -220,8 +221,8 @@ function SnowStorm() {
     this.active = 1;
     this.fontSize = (10+(this.type/5)*10);
     this.o = document.createElement('div');
-    this.o.innerHTML = storm.snowCharacter;
-    this.o.style.color = storm.snowColor;
+    this.o.innerHTML = storm.loveCharacter;
+    this.o.style.color = storm.loveColor;
     this.o.style.position = (fixedForEverything?'fixed':'absolute');
     this.o.style.width = storm.flakeWidth+'px';
     this.o.style.height = storm.flakeHeight+'px';
@@ -278,7 +279,7 @@ function SnowStorm() {
       var yDiff = screenY+scrollY-s.y;
       if (yDiff<storm.flakeHeight) {
         s.active = 0;
-	    if (storm.snowStick) {
+	    if (storm.loveStick) {
           s.stick();
 	    } else {
 	      s.recycle();

@@ -44,6 +44,7 @@
 		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/_tera_byte/css/style_shape.css">
 
 		<!-- Tera Byte font -->
+		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/_tera_byte/css/style_font.css">
 		<link rel="stylesheet" href="<?=base_url()?>_assets/vendor/_tera_byte/fontebe/css/terabyte.min.css">
 
 		<!-- Theme CSS -->
@@ -105,7 +106,6 @@
 		<!-- <script src="<?=base_url()?>_assets/vendor/_tera_byte/js/cek_resolusi_layar.js"></script> -->
 
 	</head>
-
 
 	<body data-target="#header" data-spy="scroll" data-offset="100">
 
