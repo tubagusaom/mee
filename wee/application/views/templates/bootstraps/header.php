@@ -3,7 +3,7 @@
 	<head>
 
 		<title>
-			Pernikahan - Aom & Mia - wee
+			Pernikahan - Aom & Mia
 		</title>
 
 		<!-- Basic -->
