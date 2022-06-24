@@ -300,6 +300,53 @@
   font-weight: bold;
 }
 
+/* hp besar */
+@media(min-width:602px) and (max-width: 692px){
+  #bg-tb .textbg{
+    top: 170px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 45px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 12px!important;
+    padding-top: 10px!important;
+  }
+}
+
+/* tablet */
+@media(min-width:692px) and (max-width: 800px){
+  #bg-tb .textbg{
+    top: 220px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 45px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 12px!important;
+    padding-top: 10px!important;
+  }
+}
+
+@media(min-width:800px) and (max-width: 1200px){
+  #bg-tb .textbg{
+    top: 290px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 65px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 12px!important;
+    padding-top: 10px!important;
+  }
+}
+
 /* pc mac */
 @media(min-width:1200px){
   #bg-tb .textbg{
