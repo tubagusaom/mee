@@ -1,7 +1,7 @@
 
 
   <?php
-    $this->load->view("templates/bootstraps/popup_depan");
+    // $this->load->view("templates/bootstraps/popup_depan");
   ?>
 
   <section id="header_top">
@@ -133,13 +133,19 @@
 
              <div class="bride-groom-infos">
                <h2 class="font-weight-normal m-none">
-                 <font class="text-name-tb text-color-primary">Aom</font>
+                 <font class="text-name-tb text-color-primary">
+                   <a href="http://aom.my.id" target="_blank" style="text-decoration:none;">Aom</a>
+                 </font>
                </h2>
 
-               {&nbsp;<font class="text-name-tb" style="font-size:13px;">  Ebe </font>&nbsp;}
+               <a href="http://aom.my.id" target="_blank" style="text-decoration:none;color:#777777">
+                 {&nbsp;<font class="text-name-tb" style="font-size:13px;">Ebe</font>&nbsp;}
+               </a>
 
                <p class="tb-quicksand fz-fbx-2">
-                 Tubagus Aom S.W.K
+                 <a href="http://aom.my.id" target="_blank" style="text-decoration:none;color:#777777">
+                   Tubagus Aom S.W.K
+                 </a>
                  <!-- Tubagus Aom <br>
                  Somadiningrat <br>
                  Wijaya Kusuma -->
@@ -211,12 +217,16 @@
             </div>
             <div class="bride-groom-infos">
               <h2 class="font-weight-normal m-none">
-                <font class="text-name-tb">Aom</font>
-                <font class="text-name-tb" style="font-size:16px;">( Ebe )</font>
+                <font class="text-name-tb text-color-primary">
+                  <a href="http://aom.my.id" target="_blank" style="text-decoration:none;">Aom</a>
+                </font>
+                <font class="text-name-tb" style="font-size:16px;"><a href="http://aom.my.id" target="_blank" style="text-decoration:none;color:#777777">( Ebe )</a></font>
               </h2>
 
               <p class="tb-quicksand">
-                Tubagus Aom Somadiningrat Wijaya Kusuma
+                <a href="http://aom.my.id" target="_blank" style="text-decoration:none;color:#777777">
+                  Tubagus Aom Somadiningrat Wijaya Kusuma
+                </a>
               </p>
 
               <span class="text-uppercase text-color-primary font-weight-semibold tb-quicksand">
@@ -256,7 +266,7 @@
             </div>
             <div class="bride-groom-infos">
               <h2 class="font-weight-normal m-none">
-                <font class="text-name-tb">Mia</font>
+                <font class="text-name-tb text-color-primary">Mia</font>
               </h2>
               <p class="tb-quicksand">
                 Mia Amelia
