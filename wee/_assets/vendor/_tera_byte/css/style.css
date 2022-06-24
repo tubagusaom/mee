@@ -445,7 +445,15 @@ box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px; */
 .triangle {
   position: relative;
   background: #DDDDDD;
-  height: 30vh;
+  height: 20vh;
+}
+
+@media(min-width:600px){
+  .triangle {
+    position: relative;
+    background: #DDDDDD;
+    height: 25vh;
+  }
 }
 
 .triangle::before {
@@ -466,7 +474,8 @@ box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px; */
   font-weight: bold;
 
   position: absolute;
-  top: 65%;
+  top: 70%;
   left: 50%;
+
   transform: translate(-50%, -50%);
 }

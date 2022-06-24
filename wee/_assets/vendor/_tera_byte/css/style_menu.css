@@ -218,7 +218,7 @@ hp
 }
 @media (max-width: 640px) {
   .burger {
-    height: 10vh;
+    height: 8.5vh;
   }
   .burger__patty {
     transform: scale(0.8);

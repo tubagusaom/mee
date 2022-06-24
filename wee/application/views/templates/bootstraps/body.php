@@ -52,10 +52,11 @@
 
   <section class="the-wedding section section-overlay custom-overlay-1 m-none pt-md pb-xlg">
 
+    <section class="shapetb-0"></section>
     <section class="shapetb-1"></section>
     <section class="shapetb-2"></section>
 
-    <section class="shapetb-3" ></section>
+    <!-- <section class="shapetb-3" ></section> -->
 
     <div class="text-center col-md-12">
       <img class="img-animasitb-1 spin-tb" src="<?=base_url()?>_assets/img/pink-heart-ring-icon.png" alt="">
@@ -124,7 +125,9 @@
 
           <div class="col-md-12 center pb-xlg mb-md">
             <div class="mempelai-fotobox">
-              <img src="<?=base_url()?>_assets/img/demos/wedding/foto/engagement/4.jpeg" alt class="img-responsive" />
+              <a href="http://aom.my.id" target="_blank" style="text-decoration:none;">
+                <img src="<?=base_url()?>_assets/img/demos/wedding/foto/engagement/4.jpeg" alt class="img-responsive" />
+              </a>
             </div>
           </div>
 
