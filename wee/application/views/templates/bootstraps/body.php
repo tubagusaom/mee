@@ -1,7 +1,7 @@
 
 
   <?php
-    $this->load->view("templates/bootstraps/popup_depan");
+    // $this->load->view("templates/bootstraps/popup_depan");
   ?>
 
   <section id="header_top">
@@ -117,6 +117,7 @@
       </h2>
     </section>
 
+    <!-- tampilan hp -->
     <div class="vhp bride-groom box-mempelai mt-xlg pt-xlg">
       <!-- <div class=""> -->
         <div class="row mb-xlg">
@@ -132,17 +133,25 @@
 
              <div class="bride-groom-infos">
                <h2 class="font-weight-normal m-none">
-                 <font class="text-name-tb">Aom</font>
+                 <font class="text-name-tb text-color-primary">Aom</font>
                </h2>
 
-               <font class="text-name-tb" style="font-size:16px;">( Ebe )</font><br>
+               {&nbsp;<font class="text-name-tb" style="font-size:13px;">  Ebe </font>&nbsp;}
+
+               <p class="tb-quicksand fz-fbx-2">
+                 Tubagus Aom S.W.K
+                 <!-- Tubagus Aom <br>
+                 Somadiningrat <br>
+                 Wijaya Kusuma -->
+               </p>
 
                <span class="text-uppercase fz-fbx-1 text-color-primary font-weight-semibold tb-quicksand">
                  MEMPELAI PRIA
                </span>
 
                <p class="mt-lg tb-quicksand fz-fbx-2">
-                 Tubagus Aom S.W.K
+                 Putra Pertama dari <br>
+                 Bapak Mulyadi <i style="font-size:9px;">( Alm )</i> <br> dan Ibu Siti Gantini
                </p>
 
              </div>
@@ -155,17 +164,22 @@
 
              <div class="bride-groom-infos">
                <h2 class="font-weight-normal m-none">
-                 <font class="text-name-tb">Mia</font>
+                 <font class="text-name-tb text-color-primary">Mia</font>
                </h2>
 
-               <font class="text-name-tb" style="font-size:16px;"> &nbsp;&nbsp;&nbsp; </font><br>
+               <font class="text-name-tb" style="font-size:14px;"> - </font>
+
+               <p class="tb-quicksand fz-fbx-2">
+                 Mia Amelia
+               </p>
 
                <span class="text-uppercase fz-fbx-1 text-color-primary font-weight-semibold tb-quicksand">
                  MEMPELAI WANITA
                </span>
 
                <p class="mt-lg tb-quicksand fz-fbx-2">
-                 Mia Amelia
+                 Putri Ke-3 dari <br>
+                 Bapak Masinan dan <br> Ibu Nuraeini
                </p>
              </div>
 
@@ -177,7 +191,7 @@
     </div>
 
 
-
+    <!-- tampilan pc desktop -->
     <div class="vpc container">
       <div class="row pt-xlg mt-xlg pb-xlg mb-md">
 
@@ -201,11 +215,15 @@
                 <font class="text-name-tb" style="font-size:16px;">( Ebe )</font>
               </h2>
 
+              <p class="tb-quicksand">
+                Tubagus Aom Somadiningrat Wijaya Kusuma
+              </p>
+
               <span class="text-uppercase text-color-primary font-weight-semibold tb-quicksand">
                 MEMPELAI PRIA
               </span>
-              <p class="mt-lg tb-quicksand">
-                Tubagus Aom Somadiningrat Wijaya Kusuma
+              <p class="mt-lg tb-quicksand fz-fbx-2">
+                Putra Pertama dari Bapak Mulyadi <i style="font-size:9px;">( Alm )</i> dan Ibu Siti Gantini
               </p>
             </div>
             <ul class="social-icons mt-xlg pt-sm">
@@ -240,11 +258,14 @@
               <h2 class="font-weight-normal m-none">
                 <font class="text-name-tb">Mia</font>
               </h2>
+              <p class="tb-quicksand">
+                Mia Amelia
+              </p>
               <span class="text-uppercase text-color-primary font-weight-semibold tb-quicksand">
                 MEMPELAI WANITA
               </span>
-              <p class="mt-lg tb-quicksand">
-                Mia Amelia
+              <p class="mt-lg tb-quicksand fz-fbx-2">
+                Putri Ke-3 dari Bapak Masinan dan Ibu Nuraeini
               </p>
             </div>
             <ul class="social-icons mt-xlg pt-sm">
