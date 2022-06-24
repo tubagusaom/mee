@@ -55,6 +55,8 @@
     <section class="shapetb-1"></section>
     <section class="shapetb-2"></section>
 
+    <section class="shapetb-3" ></section>
+
     <div class="text-center col-md-12">
       <img class="img-animasitb-1 spin-tb" src="<?=base_url()?>_assets/img/pink-heart-ring-icon.png" alt="">
     </div>

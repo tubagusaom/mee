@@ -276,7 +276,7 @@
   width: 100%;
   height:100%;
 
-  filter: brightness(65%);
+  filter: brightness(75%);
 }
 
 #bg-tb .textbg{
@@ -297,6 +297,7 @@
 #bg-tb .textbg .textbg2 {
   font-size: 20px;
   padding-top: 30px;
+  font-weight: bold;
 }
 
 /* pc mac */

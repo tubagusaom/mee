@@ -22,7 +22,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>تبغس اوم Portfolio</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../img/mini.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/mini.png" />
   </head>
 
   <frameset border="0" rows="100%,*" cols="100%" frameborder="no">
