@@ -113,7 +113,7 @@
   <section id="couple" class="the-wedding-white section section-overlay custom-overlay-1 m-none p-none pb-xlg">
 
     <section class="triangle">
-      <h2 class="triangle-text alternative-font text-color-primary">
+      <h2 class="triangle-text tb-belanda text-color-primary">
         Mempelai
       </h2>
     </section>
@@ -324,7 +324,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <h2 class="custom-font-size-tb text-color-primary center pb-md" style="font-family:sacramento">
+            <h2 class="custom-font-size-tb text-color-primary center pt-xlg">
             السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
             </h2>
 
@@ -397,7 +397,7 @@
       <div class="container">
         <div class="row mt-xlg pt-xlg">
           <div class="col-md-8 col-md-offset-2 center">
-            <h2 class="alternative-font custom-font-size-1 text-color-primary">
+            <h2 class="tb-belanda custom-font-size-1 text-color-primary">
               <b>Foto Prewedding</b>
             </h2>
             <p class="tb-quicksand text-color-primary">
@@ -448,26 +448,6 @@
               </div>
             </li>
 
-            <li class="col-sm-6 col-md-3 p-md isotope-item">
-              <div class="history-item">
-                <a href="<?=base_url()?>_assets/img/demos/wedding/foto/engagement/5.jpg" class="text-decoration-none">
-                  <span class="thumb-info thumb-info-lighten">
-                    <span class="thumb-info-wrapper m-none">
-                      <!-- <img src="<?=base_url()?>_assets/img/demos/wedding/foto/engagement/img_mempelai.jpg" class="img-responsive" alt=""> -->
-                      <img src="<?=base_url()?>_assets/img/demos/wedding/foto/engagement/5.jpg" class="img-responsive" alt="">
-                      <!-- <span class="thumb-info-title text-uppercase font-weight-bold">
-                        Wedding Party
-                      </span>
-                      <span class="thumb-info-likes text-color-light">
-                        <i class="fa fa-heart-o background-color-primary p-xs"></i>
-                        550
-                      </span> -->
-                    </span>
-                  </span>
-                </a>
-              </div>
-            </li>
-
           </ul>
           <div class="col-md-12 center">
             <div id="historyLoadMoreLoader" class="history-load-more-loader load-more-loader">
@@ -491,7 +471,7 @@
       <div class="container" id="guestbook">
         <div class="row center mt-xlg">
           <div class="col-md-12">
-            <h2 class="alternative-font custom-font-size-1 text-color-primary">
+            <h2 class="tb-belanda custom-font-size-1 text-color-primary">
               <b>Buku Tamu</b>
             </h2>
 
