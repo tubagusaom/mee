@@ -64,7 +64,7 @@
 <!-- <script src="<?=base_url()?>assets/js/jquery-3.6.0.min.js"></script> -->
 <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
 
-<script src="<?=base_url()?>_assets/vendor/_tera_byte/js/efek_badai_cinta.js"></script>
+<!-- <script src="<?=base_url()?>_assets/vendor/_tera_byte/js/efek_badai_cinta.js"></script> -->
 
 </body>
 
